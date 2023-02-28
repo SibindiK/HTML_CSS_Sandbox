@@ -7,54 +7,21 @@
     --green: #3fff00;
 }
 
-
-.container {
-    max-width: 1200px;
-    font-family: var(--main-font-family);
-    font-size: 2vw;
-    text-align: left;
+body {
     padding: 0;
     margin: 0;
     margin-inline: auto;
+}
+.container {
+    font-family: var(--main-font-family);
+    font-size: 2vw;
+    text-align: center;
+    color: blue;
     display: grid;
-    grid-template-columns: 2fr 5fr 1fr;
-    grid-template-rows: 60px 1fr 60px;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 0.5vw;
-    height: 100vh;
+    height: 20vh;
+    width: 30vh;
+    border:#ff6d48 solid
 }
 
-.item {
-    background: var(--purple);
-    padding: 20px;
-}
-
-header,
-footer {
-    grid-column: 2/4;
-}
-
-.nav  {
-    grid-row: 1/4;
-    background: var(--orange);
-}
-
-.ads {
-    background: var(--green);
-}
-
-.user-form {
-    display: grid;
-    grid-template-columns: [labels] auto [controls]1fr;
-    grid-auto-flow: row;
-    grid-gap: .8em;
-    padding: 1.2em;
-}
-
-.user-form > label {
-    grid-column: labels;
-    grid-row: auto;
-}
-
-.user-form > button {
-    grid-column: 2/3;
-}
