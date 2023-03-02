@@ -1,0 +1,18 @@
+root {
+    background-color: #F6E1C3;
+}
+
+body {
+    background-color: #F6E1C3;
+    display: grid;
+    grid-template-columns: repeat(2);
+}
+
+h1, h2, h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: #3E54AC;
+}
+
+img {
+    border-radius: 100%;
+}
